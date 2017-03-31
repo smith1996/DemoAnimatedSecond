@@ -10,12 +10,15 @@ import UIKit
 
 @IBDesignable
 class PushButtonView: UIButton {
+    
+    @IBInspectable var fillColor: UIColor = UIColor.green
+    @IBInspectable var isAddButton: Bool = true
 
     override func draw(_ rect: CGRect) {
         
         //Se crea el dibujo circulo
         let path = UIBezierPath(ovalIn: rect)
-        UIColor.blue.setFill()
+        fillColor.setFill()
         path.fill()
         
         //Configurar el width y height para las variables de una LINEA HORIZONTAL
@@ -32,7 +35,14 @@ class PushButtonView: UIButton {
         plusPath.move(to: CGPoint(x: bounds.width / 2 - plusWidth / 2, y: bounds.height / 2))
         
         //Agrega un punto de ruta al final del trazo
-        plusPath.addLine(to: CGPoint(x: bounds.width / 2 + plusWidth / 2, y: bounds.height / 2))
+        plusPath.addLine(to: CGPoint(x: bounds.width / 2 + plusWidth / 2 , y: bounds.height / 2))
+        
+        if isAddButton {
+            
+            plusPath.move(to: CGPoint(x: bounds.width / 2 + 0.5, y: bounds.height / 2 - plusWidth / 2 + 0.5))
+            
+            plusPath.addLine(to: CGPoint(x: bounds.width / 2 + 0.5, y: bounds.height / 2 + plusWidth / 2 + 0.5))
+        }
         
         //Definir el color del trazo
         UIColor.white.setStroke()

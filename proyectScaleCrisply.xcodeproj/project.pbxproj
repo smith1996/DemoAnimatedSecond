@@ -13,6 +13,7 @@
 		7D2936B61E7C2DF600A3D5DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D2936B51E7C2DF600A3D5DF /* Assets.xcassets */; };
 		7D2936B91E7C2DF600A3D5DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2936B71E7C2DF600A3D5DF /* LaunchScreen.storyboard */; };
 		7D8EFE111E8D9D4C00450E8F /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8EFE101E8D9D4C00450E8F /* PushButtonView.swift */; };
+		7DBB5EC01E8DFFE900B86F73 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBB5EBF1E8DFFE900B86F73 /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7D2936B81E7C2DF600A3D5DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D2936BA1E7C2DF600A3D5DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D8EFE101E8D9D4C00450E8F /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
+		7DBB5EBF1E8DFFE900B86F73 /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7D2936B71E7C2DF600A3D5DF /* LaunchScreen.storyboard */,
 				7D2936BA1E7C2DF600A3D5DF /* Info.plist */,
 				7D8EFE101E8D9D4C00450E8F /* PushButtonView.swift */,
+				7DBB5EBF1E8DFFE900B86F73 /* CounterView.swift */,
 			);
 			path = proyectScaleCrisply;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				7D2936B11E7C2DF600A3D5DF /* ViewController.swift in Sources */,
 				7D8EFE111E8D9D4C00450E8F /* PushButtonView.swift in Sources */,
 				7D2936AF1E7C2DF600A3D5DF /* AppDelegate.swift in Sources */,
+				7DBB5EC01E8DFFE900B86F73 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
